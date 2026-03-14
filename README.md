@@ -14,5 +14,14 @@ The goal was to evaluate how different architectures handle spatial structure in
 | **MLP + Autoencoder** | 61.5% | Performance boost of 2% compared to random initialization; slight bias towards "Cats". |
 | **CNN** | **76.4%** | Significant improvement; efficiently learns hierarchical textures and edges. |
  # How to run Project
- Cat-vs-Dog Small Dataset
+1. Download  Cat-vs-Dog Small Dataset from link: https://www.google.com/url?q=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Falinasir1596%2Fcatvsdog-small-dataset%3Fresource%3Ddownload
+2. Upload Cat-vs-Dog Small Dataset on Google Drive.
+3. Start a New Notebook in Google Colab.
+4. Mount Google Drive by running first code cell, then allow permission.
+6. Click the Files icon and find the dataset salary in the drive file.
+7. Copy the path and paste it into read_csv() function.
+8. Replace ... with your own path
+   ```python df = pd.read_csv("/content/drive/MyDrive/...")```
+9. Click on Runtime > Run all
+10. Obtain results 
 
