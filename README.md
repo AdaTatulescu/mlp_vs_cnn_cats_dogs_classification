@@ -13,3 +13,4 @@ The goal was to evaluate how different architectures handle spatial structure in
 | :--- | :---: | :--- |
 | **MLP + Autoencoder** | 61.5% | Performance boost of 2% compared to random initialization; slight bias towards "Cats". |
 | **CNN** | **76.4%** | Significant improvement; efficiently learns hierarchical textures and edges. |
+ 
