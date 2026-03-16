@@ -19,9 +19,8 @@ The goal was to evaluate how different architectures handle spatial structure in
 3. Start a New Notebook in Google Colab.
 4. Mount Google Drive by running first code cell, then allow permission.
 6. Click the Files icon and find the dataset salary in the drive file.
-7. Copy the path and paste it into read_csv() function.
 8. Replace ... with your own path
-   ```python df = pd.read_csv("/content/drive/MyDrive/...")```
+   ```dataset_path = "/content/drive/MyDrive/..."```
 9. Click on Runtime > Run all
 10. Obtain results 
 
